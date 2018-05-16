@@ -1,0 +1,11 @@
+package: github.com/carsonoid/kube-crds-and-controllers
+import:
+ - package: k8s.io/code-generator
+ - package: k8s.io/gengo
+ - package: k8s.io/client-go
+   version: v5.0.1
+ - package: k8s.io/apimachinery
+   version: '019ae5ada31de202164b118aee88ee2d14075c31'
+
+# For better yaml handling
+ - package: github.com/ghodss/yaml

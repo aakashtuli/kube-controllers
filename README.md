@@ -1,4 +1,4 @@
-# Kubernetes Controllers & CustomResourceDefinitions
+# Kubernetes Controllers & CustomResourceDefinitions 
 
 ## The Goal
 
@@ -8,7 +8,7 @@ Watch all pods in the cluster and make sure they all have a configurable set of 
 
 All the example controllers here use `glide` for dependency management. They are built based on client-go version `v5.0.1` which is most compatible with Kubernetes v1.8.
 
-If you want to use a newer version of client-go, you can find examples that use the latest client-go version, `v6.0.0`, with `glide`, `godep`, and `dep` in the `deptoools` folder. 
+If you want to use a newer version of client-go, you can find examples that use the latest client-go version, `v6.0.0`, with `glide`, `godep`, and `dep` in the `deptoools` folder.
 
 All the controllers here should be able to work with client-go `v6.0.0`, but some code change would be required as client-go has made breaking changes between `v5.0.x` and `v6.0.0.`
 
